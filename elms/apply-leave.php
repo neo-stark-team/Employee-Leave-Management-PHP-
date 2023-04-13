@@ -128,11 +128,11 @@ foreach($results as $result)
 
 <div class="input-field col m6 s12">
 <label for="fromdate">From  Date</label>
-<input placeholder="" id="mask1" name="fromdate" class="masked" type="text" data-inputmask="'alias': 'date'" required>
+<input placeholder="" id="mask1" name="fromdate" class="datepicker" type="text" data-inputmask="'alias': 'date'" required>
 </div>
 <div class="input-field col m6 s12">
 <label for="todate">To Date</label>
-<input placeholder="" id="mask1" name="todate" class="masked" type="text" data-inputmask="'alias': 'date'" required>
+<input placeholder="" id="mask1" name="todate" class="datepicker" type="text" data-inputmask="'alias': 'date'" required>
 </div>
 <div class="input-field col m12 s12">
 <label for="birthdate">Description</label>    
